@@ -45,17 +45,13 @@ function setup() {
 
   //set 2 for second stand
   //level one
-  blocks1 = new Block(640,175,30,40);
-  blocks2 = new Block(670,175,30,40);
-  blocks3 = new Block(700,175,30,40);
-  blocks4 = new Block(730,175,30,40);
-  blocks5 = new Block(760,175,30,40);
-  //level two
-  blocks6 = new Block(670,135,30,40);
-  blocks7 = new Block(700,135,30,40);
-  blocks8 = new Block(730,135,30,40);
-  //top
-  blocks9 = new Block(700,95,30,40);
+  
+  
+  
+  
+  
+  
+  
 
   //ball holder with slings
   ball = Bodies.circle(50,200,20);
@@ -98,18 +94,15 @@ function draw() {
   block15.display();
   fill("grey");
   block16.display();
-  fill("skyblue");
-  blocks1.display();
-  blocks2.display();
-  blocks3.display();
-  blocks4.display();
-  blocks5.display();
-  fill("turquoise");
-  blocks6.display();
-  blocks7.display();
-  blocks8.display();
-  fill("pink")
-  blocks9.display();
+  
+  
+  
+  
+  
+  
+  
+  
+  
   fill("gold");
   imageMode(CENTER)
   image(polygon_img ,ball.position.x,ball.position.y,40,40);
